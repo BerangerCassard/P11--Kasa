@@ -1,0 +1,22 @@
+.banner {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.advertising {
+    position: absolute;
+    top: 23%;
+    transform: translate(0,-50%);
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px; /* Need a specific value to work */
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+.wrapper-banner {
+    position: relative;
+}
+

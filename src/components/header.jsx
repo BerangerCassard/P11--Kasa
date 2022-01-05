@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/navigation.css'
 import logo from '../assets/img/logo.png'
 
-class Navigation extends React.Component{
+class Header extends React.Component{
 
 render() {
 
@@ -26,4 +26,4 @@ render() {
 
 }
 
-export default Navigation
+export default Header
