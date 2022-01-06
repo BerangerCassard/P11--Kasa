@@ -2,10 +2,10 @@
     border-radius: 25px;
     background-color: #F7F7F7;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 5%;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    row-gap: 1%;
     justify-items: center;
-    padding: 45px 0;
+    padding: 3% 0;
 }
 
 .card {
@@ -22,4 +22,7 @@
     justify-content: flex-end;
     height: 50px;
     color: white;
+    padding-left: 15px;
+    width: 50%;
+    font-size: 0.9rem;
 }
