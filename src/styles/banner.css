@@ -11,12 +11,20 @@
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 750px; /* Need a specific value to work */
-    font-size: 3rem;
+    width: 100%; /* Need a specific value to work */
+    font-size: 4vw;
     color: aliceblue;
+    text-align: center;
 }
 
 .wrapper-banner {
     position: relative;
+}
+
+.about-banner {
+    background-image: url("../../public/about-banner.jpg");
+    height: 223px;
+    border-radius: 25px;
+    max-width: 100%;
 }
 
