@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/footer.css'
+import logo from '../assets/img/logo-white.png'
 
 class Footer extends React.Component {
 	constructor(props) {
@@ -8,10 +9,10 @@ class Footer extends React.Component {
 
 	render() {
 		return (
-			<div className='footer-wrapper'>
-				<img src='../../public/logo-white.png' alt='logo-white'/>
+			<footer className='footer-wrapper'>
+				<img className='footer-logo' src={logo} alt='logo-white'/>
 				<p>© 2020 Kasa. All rights reserved</p>
-			</div>
+			</footer>
 		)
 	}
 

@@ -9,7 +9,7 @@ import '../styles/home-page.css'
 class HomePage extends React.Component {
 	render() {
 		return(
-			<div className="home-page">
+			<main className="home-page">
 				<Banner
 					src={banner}
 					content="Chez vous, partout et ailleurs"
@@ -17,7 +17,7 @@ class HomePage extends React.Component {
 				<Card
 					data={data}
 				/>
-			</div>
+			</main>
 			)
 
 	}

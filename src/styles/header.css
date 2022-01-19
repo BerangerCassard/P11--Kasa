@@ -6,6 +6,10 @@
     gap: 50px;
 }
 
+.menu li {
+    text-decoration: none;
+}
+
 .header {
     display: flex;
     justify-content: space-between;

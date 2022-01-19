@@ -1,4 +1,12 @@
 .footer-wrapper {
     background-color: #282c34;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.footer-logo {
+    width: 122px;
 }

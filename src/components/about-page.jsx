@@ -9,7 +9,7 @@ class AboutPage extends React.Component {
 
 	render() {
 		return(
-			<div className='about-page'>
+			<main className='about-page'>
 				<div className='about-banner'></div>
 				{about.map( value => (
 					<Accordion
@@ -19,7 +19,7 @@ class AboutPage extends React.Component {
 						content={value.content}
 					/>
 				))}
-			</div>
+			</main>
 
 		)
 	}
