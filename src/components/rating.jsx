@@ -19,8 +19,8 @@ class Rating extends React.Component {
 		return(
 			<div>
 				{
-					this.stars.map( star => (
-						<FontAwesomeIcon icon={faStar} className={star}/>
+					this.stars.map( (star, index) => (
+						<FontAwesomeIcon icon={faStar} className={star} key={index}/>
 					))
 
 
