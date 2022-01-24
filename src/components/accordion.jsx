@@ -8,14 +8,27 @@ class Accordion extends React.Component {
 	render() {
 		const {title, content, id} = this.props
 		return (
-			<div className='accordion'>
+			<div className={this.props.className}>
 				<div>
-					<input type='radio' name='about_accordion' id={id} className='accordion__input'/>
+					<input type='checkbox' name={id} id={id} className='accordion__input'/>
 					<label htmlFor={id} className='accordion__label'>{title}</label>
 					<div className='accordion__content'>
-						<p>
-							{content}
-						</p>
+
+						{
+							Array.isArray(content) ? (
+								<ul className='accordion-list'>
+									{content.map((item, index)=> (
+										<li key={index}>{item}</li>
+									))}
+								</ul>
+
+							) : (
+								<p>
+									{content}
+								</p>
+							)
+						}
+
 					</div>
 				</div>
 			</div>

@@ -1,0 +1,40 @@
+.accommodation-wrapper {
+    min-height: 79vh;
+    width: 65%;
+    margin: auto;
+    color: #FF6060;
+}
+
+.accordion-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tag-wrapper {
+    display: flex;
+    gap: 8px;
+}
+
+.main-information-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.identity-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.identity-wrapper p {
+    width: 50px;
+}
+
+.profile-picture {
+    border-radius: 100px;
+    width: 100px;
+}
+
+.accordion-accommodation {
+width: 330px;
+}

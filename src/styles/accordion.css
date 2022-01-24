@@ -1,9 +1,10 @@
 .accordion {
     margin: 10px auto;
-    max-width: 75%;
+    max-width: 90%;
     border-radius: 5px;
     overflow: hidden;
     background-color: #FF6060;
+    height: fit-content;
 }
 
 .accordion__label, .accordion__content {
@@ -55,4 +56,9 @@ display: none;
 
 .accordion__input:checked ~ .accordion__label::after {
     transform: translateY(-50%) rotate(0.5turn);
+}
+
+.accordion-list {
+    list-style-type: none;
+    padding-left: 0;
 }

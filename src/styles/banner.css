@@ -21,10 +21,9 @@
     position: relative;
 }
 
-.about-banner {
-    background-image: url("../../public/about-banner.jpg");
-    height: 223px;
-    border-radius: 25px;
-    max-width: 100%;
-}
+/*.about-banner {*/
+/*    height: 223px;*/
+/*    border-radius: 25px;*/
+/*    max-width: 100%;*/
+/*}*/
 

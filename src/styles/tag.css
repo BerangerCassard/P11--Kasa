@@ -1,0 +1,12 @@
+.tag {
+    background-color: #FF6060;
+    color: white;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    padding: 4px 20px;
+    min-width: 70px;
+
+}
