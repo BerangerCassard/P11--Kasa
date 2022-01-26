@@ -12,7 +12,6 @@ class Rating extends React.Component {
 			.map( (star, index) => (
 				(rate > index) ? 'filled' : 'empty'
 			))
-		console.log(this.stars)
 	}
 
 	render() {
@@ -22,8 +21,6 @@ class Rating extends React.Component {
 					this.stars.map( (star, index) => (
 						<FontAwesomeIcon icon={faStar} className={star} key={index}/>
 					))
-
-
 				}
 			</div>
 		)

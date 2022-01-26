@@ -6,6 +6,7 @@ import '../styles/accomodation.css'
 import Accordion from "./accordion";
 import Tag from "./tag";
 import Rating from "./rating";
+import Gallery from "./gallery";
 
 class AccommodationPage extends React.Component {
 	constructor(props) {
@@ -21,6 +22,9 @@ class AccommodationPage extends React.Component {
 
 		return (
 			<main className='accommodation-wrapper'>
+				<Gallery
+				pictures={pictures}
+				/>
 				<div className='main-information-wrapper'>
 					<div>
 						<h1>{title}</h1>
