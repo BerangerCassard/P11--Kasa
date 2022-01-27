@@ -615,7 +615,7 @@ const data = [
       "Marais",
       "Rivoli"
     ]
-  }
+  },
 ]
 
 

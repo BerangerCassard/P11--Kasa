@@ -2,3 +2,19 @@
     width: 65%;
     margin: auto;
 }
+
+@media screen and (max-width: 1048px) {
+
+    .home-page{
+        width: 86%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .home-page{
+        width: 96%;
+    }
+
+}

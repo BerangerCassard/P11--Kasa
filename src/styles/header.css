@@ -21,3 +21,42 @@
 .header img {
     width: 200px;
 }
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1048px) {
+
+    .header {
+        width: 86%;
+    }
+
+    .header img {
+        width: 100px;
+    }
+
+    .menu {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .header img {
+        width: 100px;
+    }
+
+    .menu {
+        font-size: 0.8rem;
+        gap: 28px;
+    }
+}
+
+@media screen and (max-width: 416px) {
+
+    .menu {
+        font-size: 0.6rem;
+    }
+}

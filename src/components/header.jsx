@@ -9,7 +9,7 @@ render() {
 
 	return (
 		<nav className='header'>
-			<div>
+			<div className='logo-wrapper'>
 				<img src={logo} alt='logo'/>
 			</div>
 
