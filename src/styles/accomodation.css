@@ -8,6 +8,7 @@
 .accordion-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 13px 0;
 }
 
 .tag-wrapper {
@@ -19,6 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .identity-wrapper {
@@ -28,13 +30,77 @@
 }
 .identity-wrapper p {
     width: 50px;
+    text-align: end;
 }
 
 .profile-picture {
     border-radius: 100px;
-    width: 100px;
+    width: 69px;
 }
 
 .accordion-accommodation {
-width: 330px;
+width: 33vw;
+}
+
+#description {
+    position: relative;
+    left: -24px;
+}
+
+#equipements {
+    position: relative;
+    right: -24px;
+}
+
+.information-title {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.information-location {
+    font-size: 0.9rem;
+    margin-top: -9px;
+}
+
+
+
+@media screen and (max-width: 1048px) {
+
+    .accommodation-wrapper {
+        width: 86%;
+    }
+
+}
+
+@media screen and (max-width: 888px){
+
+    .main-information-wrapper {
+        flex-direction: column;
+    }
+
+    .information-title {
+        margin-top: 0;
+    }
+
+    .profile-wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 65vw;
+        justify-content: space-between;
+    }
+
+    .accordion-wrapper {
+        display: block;
+    }
+    .accordion-accommodation {
+        width: 86vw;
+    }
+
+    #description {
+        left: 0;
+    }
+
+    #equipements {
+        right: 0;
+    }
 }

@@ -27,8 +27,8 @@ class AccommodationPage extends React.Component {
 				/>
 				<div className='main-information-wrapper'>
 					<div>
-						<h1>{title}</h1>
-						<p>{location}</p>
+						<h1 className='information-title'>{title}</h1>
+						<p className='information-location'>{location}</p>
 						<div className='tag-wrapper'>
 							{tags.map( tag => (
 								<Tag
@@ -38,7 +38,7 @@ class AccommodationPage extends React.Component {
 							))}
 						</div>
 					</div>
-					<div>
+					<div className='profile-wrapper'>
 						<div className='identity-wrapper'>
 							<p>{host.name}</p>
 							<img className='profile-picture' src={host.picture}/>

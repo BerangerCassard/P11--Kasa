@@ -16,7 +16,7 @@ class Rating extends React.Component {
 
 	render() {
 		return(
-			<div>
+			<div className='rating-wrapper'>
 				{
 					this.stars.map( (star, index) => (
 						<FontAwesomeIcon icon={faStar} className={star} key={index}/>

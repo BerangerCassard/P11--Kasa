@@ -8,7 +8,7 @@ class Accordion extends React.Component {
 	render() {
 		const {title, content, id} = this.props
 		return (
-			<div className={this.props.className}>
+			<div className={this.props.className} id={id}>
 				<div>
 					<input type='checkbox' name={id} id={id} className='accordion__input'/>
 					<label htmlFor={id} className='accordion__label'>{title}</label>
