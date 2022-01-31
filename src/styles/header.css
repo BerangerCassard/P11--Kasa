@@ -6,16 +6,21 @@
     gap: 50px;
 }
 
-.menu li {
+.menu a {
     text-decoration: none;
+    color: #FF6060;
+}
+
+.menu a :active {
+    text-decoration: underline;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 40px 0;
+    /*margin: 40px 0;*/
     width: 65%;
-    margin: auto;
+    margin: auto auto 12px;
 }
 
 .header img {
@@ -25,6 +30,10 @@
 .logo-wrapper {
     display: flex;
     align-items: center;
+}
+
+.active {
+    text-decoration: underline !important;
 }
 
 @media screen and (max-width: 1048px) {

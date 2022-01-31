@@ -14,6 +14,7 @@ class AboutPage extends React.Component {
 			<main className='about-page'>
 				<Banner
 				src={banner}
+				id='about-page-banner'
 				/>
 				{about.map( value => (
 					<Accordion

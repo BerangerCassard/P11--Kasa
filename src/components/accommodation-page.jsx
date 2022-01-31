@@ -26,7 +26,7 @@ class AccommodationPage extends React.Component {
 				pictures={pictures}
 				/>
 				<div className='main-information-wrapper'>
-					<div>
+					<div className='sub-information-wrapper'>
 						<h1 className='information-title'>{title}</h1>
 						<p className='information-location'>{location}</p>
 						<div className='tag-wrapper'>

@@ -42,12 +42,12 @@
 width: 33vw;
 }
 
-#description {
+#Description {
     position: relative;
     left: -24px;
 }
 
-#equipements {
+#Equipements {
     position: relative;
     right: -24px;
 }
@@ -72,7 +72,7 @@ width: 33vw;
 
 }
 
-@media screen and (max-width: 888px){
+@media screen and (max-width: 1048px){
 
     .main-information-wrapper {
         flex-direction: column;
@@ -87,6 +87,7 @@ width: 33vw;
         flex-direction: row-reverse;
         width: 65vw;
         justify-content: space-between;
+        margin-top: 15px;
     }
 
     .accordion-wrapper {
@@ -96,11 +97,15 @@ width: 33vw;
         width: 86vw;
     }
 
-    #description {
+    #Description {
         left: 0;
     }
 
-    #equipements {
+    #Equipements {
         right: 0;
+    }
+
+    .sub-information-wrapper {
+        width: 100%;
     }
 }

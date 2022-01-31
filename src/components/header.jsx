@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/header.css'
 import logo from '../assets/img/logo.png'
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 class Header extends React.Component{
 
@@ -15,10 +15,10 @@ render() {
 
 			<ul className='menu'>
 				<li>
-					<Link to='/'>Accueil</Link>
+					<NavLink exact to='/' activeClassName='active' >Accueil</NavLink>
 				</li>
 				<li>
-					<Link to='/about'>A Propos</Link>
+					<NavLink to='/about'>A Propos</NavLink>
 
 				</li>
 			</ul>

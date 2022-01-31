@@ -3,11 +3,12 @@ import '../styles/banner.css'
 
 class Banner extends React.Component {
 	render() {
-		const {src, content} = this.props
+		const {src, content, id} = this.props
 
 		return (
 			<div className='wrapper-banner'>
 				<img
+					id={id}
 					className='banner'
 					src={src}
 				/>
