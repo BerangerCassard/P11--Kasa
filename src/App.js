@@ -19,7 +19,7 @@ class App extends React.Component{
                     <Route path='/' exact component={Homepage} />
                     <Route path='/accommodation/:id' component={AccommodationPage}/>
                     <Route path='/about' component={AboutPage}/>
-                    <Route path='/404' component={ErrorPage}/>
+                    <Route path='/*' component={ErrorPage}/>
                 </Switch>
                 <Footer/>
             </BrowserRouter>

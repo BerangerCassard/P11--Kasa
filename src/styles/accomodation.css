@@ -1,6 +1,6 @@
 .accommodation-wrapper {
     min-height: 79vh;
-    width: 65%;
+    width: 86%;
     margin: auto;
     color: #FF6060;
 }
@@ -45,12 +45,12 @@ width: 33vw;
 
 #Description {
     position: relative;
-    left: -24px;
+    left: -11%;
 }
 
 #Equipements {
     position: relative;
-    right: -24px;
+    right: -11%;
 }
 
 .information-title {

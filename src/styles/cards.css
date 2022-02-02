@@ -19,16 +19,35 @@
     border-radius: 10px;
     display: flex;
     align-items: flex-end;
-
 }
 
 .card-title {
+    z-index: 1;
     justify-content: flex-end;
     height: 50px;
     color: white;
     padding-left: 15px;
-    width: 50%;
+    width: 52%;
     font-size: 0.9rem;
+}
+
+.cover {
+    z-index: 0;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.shadow-layer {
+    background-color: rgba(56, 50, 53, 0.5);
+    z-index: 0;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 
@@ -38,7 +57,7 @@
         background-color: white;
     }
 
-    .card {
+    .card, .cover, .shadow-layer{
         height: 255px;
     }
 }

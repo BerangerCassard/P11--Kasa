@@ -12,6 +12,8 @@ class Card extends React.Component {
 				{data.map(hotel => (
 						<NavLink to={`/accommodation/${hotel.id}`} key={hotel.id}>
 							<div className="card" key={hotel.id}>
+								<img className='cover' src={hotel.cover}/>
+								<div className='shadow-layer'></div>
 								<h3 className='card-title' key={hotel.id}>{hotel.title}</h3>
 							</div>
 						</NavLink>
