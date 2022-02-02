@@ -4,6 +4,10 @@
     min-height: 79vh;
 }
 
+#about-page-banner {
+    height: 19vh;
+}
+
 @media screen and (max-width: 1042px) {
 
     .about-page {

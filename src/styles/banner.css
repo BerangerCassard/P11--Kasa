@@ -32,6 +32,10 @@
     margin-bottom: 30px;
 }
 
+#banner-shadow {
+    height: 19vh;
+}
+
 /*.about-banner {*/
 /*    height: 223px;*/
 /*    border-radius: 25px;*/
@@ -43,6 +47,14 @@
 
     .advertising {
         width: 55%;
+    }
+}
+
+@media screen and (max-width: 1042px) {
+
+
+    #banner-shadow {
+        height: 24vh;
     }
 }
 

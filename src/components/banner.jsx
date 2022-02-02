@@ -3,7 +3,7 @@ import '../styles/banner.css'
 
 class Banner extends React.Component {
 	render() {
-		const {src, content, id} = this.props
+		const {src, content, id, shadow} = this.props
 
 		return (
 			<div className='wrapper-banner'>
@@ -12,7 +12,7 @@ class Banner extends React.Component {
 					className='banner'
 					src={src}
 				/>
-				<div className='shadow-banner'></div>
+				<div id={shadow} className='shadow-banner'></div>
 				{content ? <h2 className='advertising'>{content}</h2>: null}
 			</div>
 		)
