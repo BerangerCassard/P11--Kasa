@@ -14,6 +14,7 @@
 .tag-wrapper {
     display: flex;
     gap: 8px;
+    flex-wrap: wrap;
 }
 
 .main-information-wrapper {
@@ -85,7 +86,7 @@ width: 33vw;
     .profile-wrapper {
         display: flex;
         flex-direction: row-reverse;
-        width: 65vw;
+        width: 86vw;
         justify-content: space-between;
         margin-top: 15px;
     }

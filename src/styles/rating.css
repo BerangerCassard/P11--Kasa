@@ -8,3 +8,12 @@
     margin-top: 19px;
     justify-content: flex-end;
 }
+
+@media screen and (max-width: 450px) {
+
+    .rating-wrapper {
+        font-size: 3vw;
+    }
+
+
+}

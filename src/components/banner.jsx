@@ -12,6 +12,7 @@ class Banner extends React.Component {
 					className='banner'
 					src={src}
 				/>
+				<div className='shadow-banner'></div>
 				{content ? <h2 className='advertising'>{content}</h2>: null}
 			</div>
 		)

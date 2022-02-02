@@ -1,5 +1,5 @@
 .home-page {
-    width: 65%;
+    width: 86%;
     margin: auto;
 }
 
@@ -11,10 +11,20 @@
 
 }
 
+@media screen and (max-width: 797px) {
+
+    .wrapper-banner h2 {
+        text-align: left;
+    }
+
+
+
+}
+
 @media screen and (max-width: 400px) {
 
-    .home-page{
-        width: 96%;
-    }
+    /*.home-page{*/
+    /*    width: 96%;*/
+    /*}*/
 
 }

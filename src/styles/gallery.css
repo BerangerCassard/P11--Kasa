@@ -1,7 +1,7 @@
 .gallery-wrapper {
     display: flex;
     position: relative;
-    height: 415px;
+    /*height: 415px;*/
     max-width: 100%;
 }
 
@@ -10,7 +10,7 @@
     width: 25px;
     cursor: pointer;
     position: absolute;
-    left: 0;
+    left: 10px;
 }
 
 .next-button {
@@ -18,7 +18,7 @@
     top: 50%;
     position: absolute;
     cursor: pointer;
-    right: 0;
+    right: 10px;
 }
 .banner-picture {
     border-radius: 25px;
@@ -26,4 +26,14 @@
     width: 100%;
     object-fit: cover;
 }
+@media screen and (max-width: 1048px) {
 
+    .banner-picture {
+        height: 28vh;
+    }
+
+    .previous-button, .next-button {
+        top: 40%;
+    }
+
+}

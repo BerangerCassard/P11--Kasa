@@ -1,24 +1,35 @@
 .banner {
     border-radius: 15px;
     width: 100%;
+    height: 15vw;
+}
+
+.shadow-banner {
+    position: absolute;
+    background-color: rgba(56, 50, 53, 0.5);
+    width: 100%;
+    top: 0;
+    border-radius: 13px;
+    height: 15vw;
 }
 
 .advertising {
     position: absolute;
-    top: 23%;
     transform: translate(0,-50%);
     left: 0;
     right: 0;
+    top: 30%;
     margin-left: auto;
     margin-right: auto;
     width: 100%; /* Need a specific value to work */
-    font-size: 4vw;
+    font-size: 3vw;
     color: aliceblue;
     text-align: center;
 }
 
 .wrapper-banner {
     position: relative;
+    margin-bottom: 30px;
 }
 
 /*.about-banner {*/
@@ -32,5 +43,28 @@
 
     .advertising {
         width: 55%;
+    }
+}
+
+@media screen and (max-width: 797px) {
+
+    .advertising {
+        width: 42%;
+        left: -46%;
+        top: 40%;
+        font-size: 3vw;
+    }
+
+    .banner {
+        height: 13vh;
+        object-fit: cover;
+    }
+
+    .wrapper-banner {
+        margin-bottom: 0px;
+    }
+
+    .shadow-banner {
+        height: 13vh;
     }
 }

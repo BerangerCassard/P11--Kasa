@@ -19,7 +19,7 @@
     display: flex;
     justify-content: space-between;
     /*margin: 40px 0;*/
-    width: 65%;
+    width: 90%;
     margin: auto auto 12px;
 }
 
@@ -48,6 +48,7 @@
 
     .menu {
         font-size: 1rem;
+        text-transform: uppercase;
     }
 }
 

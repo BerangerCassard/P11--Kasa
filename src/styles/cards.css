@@ -2,7 +2,7 @@
     border-radius: 25px;
     background-color: #F7F7F7;
     display: flex;
-    gap: 20px;
+    gap: 40px;
     flex-wrap: wrap;
     justify-content: center;
     /*display: grid;*/
@@ -30,6 +30,19 @@
     width: 50%;
     font-size: 0.9rem;
 }
+
+
+@media screen and (max-width: 797px) {
+
+    .cards-wrapper {
+        background-color: white;
+    }
+
+    .card {
+        height: 255px;
+    }
+}
+
 
 @media screen and (max-width: 340px) {
 

@@ -1,5 +1,5 @@
 .about-page {
-	width: 65%;
+	width: 90%;
     margin: auto;
     min-height: 79vh;
 }
@@ -7,11 +7,11 @@
 @media screen and (max-width: 1042px) {
 
     .about-page {
-        width: 86%;
+        width: 90%;
     }
 
     #about-page-banner {
-        height: 40vh;
+        height: 24vh;
         object-fit: cover;
     }
 
