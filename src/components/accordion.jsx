@@ -13,7 +13,6 @@ class Accordion extends React.Component {
 					<input type='checkbox' name={id} id={id} className='accordion__input'/>
 					<label htmlFor={id} className='accordion__label'>{title}</label>
 					<div className='accordion__content'>
-
 						{
 							Array.isArray(content) ? (
 								<ul className='accordion-list'>
@@ -28,7 +27,6 @@ class Accordion extends React.Component {
 								</p>
 							)
 						}
-
 					</div>
 				</div>
 			</div>

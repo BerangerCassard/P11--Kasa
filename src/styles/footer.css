@@ -6,7 +6,15 @@
     justify-content: center;
     align-items: center;
     padding-top: 30px;
+    padding-bottom: 20px;
 }
 .footer-logo {
     width: 122px;
+}
+
+@media screen and (max-width: 540px) {
+
+    .footer-wrapper p {
+        font-size: 0.6rem;
+    }
 }

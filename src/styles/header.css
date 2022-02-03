@@ -19,8 +19,8 @@
     display: flex;
     justify-content: space-between;
     /*margin: 40px 0;*/
-    width: 90%;
-    margin: auto auto 12px;
+    width: 86%;
+    margin: 12px auto;
 }
 
 .header img {
@@ -68,5 +68,12 @@
 
     .menu {
         font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 281px) {
+
+    .menu {
+        padding-left: 0px;
     }
 }

@@ -1,5 +1,5 @@
 .accommodation-wrapper {
-    min-height: 79vh;
+    min-height: 85vh;
     width: 86%;
     margin: auto;
     color: #FF6060;
@@ -55,7 +55,7 @@ width: 33vw;
 
 .information-title {
     font-size: 1.5rem;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .information-location {
@@ -81,12 +81,13 @@ width: 33vw;
 
     .information-title {
         margin-top: 0;
+        font-weight: normal;
     }
 
     .profile-wrapper {
         display: flex;
         flex-direction: row-reverse;
-        width: 86vw;
+        width: 84vw;
         justify-content: space-between;
         margin-top: 15px;
     }
@@ -108,5 +109,18 @@ width: 33vw;
 
     .sub-information-wrapper {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 281px) {
+
+    .identity-wrapper {
+        gap: 6px;
+    }
+    .identity-wrapper p {
+        font-size: 0.7rem;
+    }
+    .profile-picture {
+        width: 40px;
     }
 }

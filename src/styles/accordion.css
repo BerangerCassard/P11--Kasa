@@ -14,7 +14,6 @@
 .accordion__label {
     display: block;
     color: white;
-    font-weight: bold;
     cursor: pointer;
     position: relative;
     transition: background 0.1s;
@@ -35,6 +34,7 @@
     height: 6px;
     background-size: contain;
     transition: transform 0.4s;
+    font-weight: bold;
 }
 
 .accordion__content {
@@ -63,7 +63,7 @@ display: none;
     padding-left: 0;
 }
 
-@media screen and (max-width: 1042px){
+@media screen and (max-width: 1048px){
     .accordion {
         max-width: 100%;
     }
